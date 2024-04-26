@@ -1,0 +1,79 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# ===================================== #
+# Visual Studio / Rider generated files #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# ============================== #
+# OS generated files (Mac, Windows) #
+# ============================== #
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============ #
+# Builds output #
+# ============ #
+[Bb]in/
+[Oo]bj/
+
+# =============== #
+# Backup & Others #
+# =============== #
+*.swp
+*.bak
+*.tmp
+*.tgz
+*.zip
+*.rar
+*.tar
+*.log
+*.sql
+*.sqlite
+*.apk
+*.unitypackage
+
+# ============ #
+# Crash reports #
+# ============ #
+sysinfo.txt
+crashlytics-build.properties
+*.crash
+*.dmp
+*.stackdump
+
+# ================== #
+# Dependency directories #
+# ================== #
+[Pp]ackages/
+node_modules/

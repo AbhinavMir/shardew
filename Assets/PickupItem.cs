@@ -18,6 +18,11 @@ public class PickupItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ttl -= Time.deltaTime;
+        if (ttl <= 0)
+        {
+            Destroy(gameObject);
+        }
         float distance = Vector2.Distance(transform.position, player.position);
         if (distance > distanceToPickup)
         {

@@ -8,5 +8,6 @@ public class ToolHit : MonoBehaviour
     public virtual void Hit()
     {
         Debug.Log("Hit");
+        Destroy(gameObject);
     }
 }
